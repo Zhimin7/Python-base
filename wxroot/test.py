@@ -1,0 +1,30 @@
+import turtle
+
+turtle.begin_fill()
+turtle.color('black','black')
+turtle.circle(100, 180)
+turtle.circle(50, -180)
+turtle.left(-180)
+turtle.circle(50, 180)
+turtle.end_fill()
+
+
+turtle.circle(100, -180)
+turtle.left(90)
+turtle.penup()
+turtle.forward(50)
+turtle.pendown()
+turtle.begin_fill()
+turtle.color('black','black')
+turtle.circle(10)
+turtle.end_fill()
+
+turtle.penup()
+turtle.forward(100)
+turtle.pendown()
+turtle.begin_fill()
+turtle.color('white', 'white')
+turtle.circle(10)
+turtle.end_fill()
+turtle.hideturtle()
+turtle.done()

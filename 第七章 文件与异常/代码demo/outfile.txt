@@ -1,0 +1,5 @@
+Hello World
+Number of entries: 10
+Totle:     8.25
+
+Hello World
